@@ -1,0 +1,52 @@
+body{
+  color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    font-size: 5rem;
+    width: 100%;
+    background-color: black;
+
+}
+.container > span{
+    animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow{
+    0%,  100%{
+        color:lime;
+        text-shadow: 0 0 12px lime 0 0 50px lime 0 0 100px lime;
+    }
+    10%, 90%{
+        color: grey;
+        text-shadow: none;
+    }
+}
+.container > span:nth-child(2){
+    animation-delay:0.25s ;
+}
+.container>span:nth-child(3) {
+    animation-delay: 0.5s;
+}
+.container>span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+.container>span:nth-child(5) {
+    animation-delay: 1s;
+}
+.container>span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+.container>span:nth-child(7) {
+    animation-delay: 1.50s;
+}
+.container>span:nth-child(8) {
+    animation-delay: 1.75s;
+}
+.container>span:nth-child(9) {
+    animation-delay: 2s;
+}
+.container>span:nth-child(10) {
+    animation-delay: 2.25s;
+}
